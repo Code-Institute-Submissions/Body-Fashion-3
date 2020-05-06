@@ -37,7 +37,7 @@ Keep the project in repositories with frequent commits and informative messages.
 * Google Chrome Dev Tool 
 I have used this technology to Edit my HTML and CSS code.
 * Balsamiq Wireframes 
-I have used this software to create the wireframe and so my first project ideas.
+I have used this software to create the wireframe, this file is called Body Fashion wireframe and so my first project ideas.
 * Jquery 
 I have copy and pasted his link from Bootstrap to the bottom of my page, It helps to develop most browser compatible web page.
 * Cdnjs
@@ -49,7 +49,8 @@ Cdnjs it is a "Content Delivery Network" improves the performance of my website 
 * I have checked if my code contains any errors and validate my HTML and CSS code using W3C validator "World Wide Consortium" technology, this the link for the HTML <https://validator.w3.org> and this the link used for the CSS <https://jigsaw.w3.org/css-validator/>.
 * I used this technology to beautify my style.css code  <https://www.freeformatter.com/css-beautifier.html#ad-output>, and instead to beautify my HTML pages I used the keyboard commands alt+shift+f.  
 ## External Sources
-1. All the Images are taken from Yahoo search engine
+1. Most of the Images are taken from Yahoo search engine: Michael.jpg, Our.team.jpg, maxresdefault, blonde-jpg-jpg, Arnold.jpg, palestra.jpg, Richard.jpg, sereno.jpg, silvy-image.jpg, instead unsplash.jpg and unsplash3.jpg are taken from <https://unsplash.com/>, pexels-2.jpg and pexels.jpg are taken from the free licence website <https://www.pexels.com/>.
+The following images are in the project but have not been used yet as I am planning to include them once I develop a new page to show supplement product to buy online, these are: zmag120.jpg, vegeteria-protein.jpg, bcca-usn.jpg taken from the <https://usn.co.uk> and bomd-body-building.jpg and bcca-usn.jpg taken from the <https:/>/bodybuilding.com>.
 2. The two iframe videos in [learn-more.html](learn-more.html) are taken from Youtube and their username sources are Valrocky and Criticalbench.
 3. The text used from other sources are the [index.html](index.html), is taken from <https://www.ourgym.co.uk>, part of the text in [learn-more.html](learn-more.html) is taken from <https://resources.workable.com/>, the text of [rules.html](rules.html) is taken from <http://247fitness.co>.
 The pricing card in the [pricing.html] (pricing.html) is taken from the Bootstrap documentation and then modified, instead the rest of the text as on [meet.html] (meet.html) is written by me. 
