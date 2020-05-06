@@ -1,74 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto|Fjalla+One&display=swap rel="stylesheet">display:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700,');
-
-.table { 
-  width: 100%; 
-  border-collapse: collapse; 
-}
-
-.grid-item {
-    display:inline-block;
-    width:200px;
-    height:200px;
-}
-/* 
-.container-supplement {
-    
-    display: inline block;
-}
-
-.container-supplement-1 {
-    display:inline-block;
-    width:20%;
-
-}
-
-.container-supplement-2 {
-     display:inline-block;
-  width:20%;
-
-}
-
-.container-supplement-3 {
- display:inline-block;
-  width:20%;
-}
-
-.container-supplement-4 {
- display:inline-block;
-  width:20%;
-} */
-
-
 body {
 	font-family: 'Fjalla One', 'Roboto', sans-serif;
 }
 
-.navbar-title {
-    color:blue;
+container-button-index-learn-more {
+	text-align: center;
+	margin-bottom: 15px;
 }
 
+.navbar-title {
+	color: blue;
+}
+
+
 /* index.html */
-.jumbotron-and-Arnold-image-container h1 {
+
+.jumbotron-Arnold-container h1 {
 	color: cornflowerblue;
+}
+
+.jumbotron-Arnold-container {
+	width: 100%;
+	padding: 0;
 }
 
 .heading-text-inside-index-file h3 {
 	color: crimson;
-}
-
-.text-on-gym-gym-100-jpg-index-file {
-	color: red;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 60px;
-}
-/* jumbotron index.html */
-
-.jumbotron {
-	padding: 5px;
-	margin: 5px;
 }
 
 .jumbotron h1 {
@@ -80,39 +37,19 @@ body {
 	font-size: larger;
 }
 
-
-/* learn-more.html  */
-
-/* #overlay {
-	position: relative;
-	background-color: rgba(6, 6, 6, 0.5);
-} */
-
 .learn {
-    background-color:aliceblue;
+	background-color: aliceblue;
 	/* background: url("../images/sereno.jpg") no-repeat; */
 	background-size: cover;
 }
 
-/* .iframe-title {
-	font-family: 'Fjalla One', sans-serif;
+.learn-more-headings {
 	color: dodgerblue;
-} */
-/* .container-learn-more ul {
-	color: white;
-} */
-
-.container-learn-more {
-    width: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+	font-size: 30px;
 }
 
-
 .h1-learn-more-title {
-	font-size: 30px;
+	font-size: 40px;
 	color: dodgerblue;
 	padding-left: 25px;
 }
@@ -121,16 +58,19 @@ body {
 	color: greenyellow;
 }
 
-.h3-learn-more {
-	color: #52d0e4;
-}
 
 /* rules.html */
 
+
 /* headings in rules.html and pricing.html */
+
 .card-title {
 	color: blue;
 }
+
+
+/* meet.html */
+
 
 /* two images, one of them, the smaller is overlapping and it is hidden on small devices */
 
@@ -138,13 +78,16 @@ body {
 	position: relative;
 }
 
-.blonde-jpg-img-top-in-rule-overlapping  {
+.blonde-jpg-img-top-in-rule-overlapping {
 	position: absolute;
 	top: 50px;
 	left: 50px;
 	right: 50px;
 	bottom: 50px;
 }
+
+
+/* rules.html */
 
 .rules-title {
 	color: red;
@@ -155,18 +98,13 @@ body {
 	padding: 2px;
 }
 
-.rules-container-containing-images {
-	padding: 5px;
-	margin: 5px;
-}
-
 
 /* All footers */
+
 .footer-index {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 20px;
-	margin: 5px;
 	font-size: 12px;
 }
 
@@ -176,186 +114,82 @@ body {
 	padding-left: 2px;
 }
 
-/* meet.html */
-.meet-text {
-    margin: 10px 10px 15px 15px;
-    font-size: 22px;
-}
-.images-meet.html {
-    height:200px;
-}
-.container-meet {
-    margin:10px 25px;
 
+/* meet.html */
+
+.meet-text {
+	font-size: 20px;
+}
+
+.images-meet.html {
+	height: 200px;
 }
 
 @media screen and (min-width: 300px) {
-  .table {  width: 100%;
-    border-collapse: collapse;
-    margin: 10px 10px;
-  }
-.table-success {
-    border-color: #8fd19e;
-    padding-left: 1px;
-    padding-right: 1px;
-}
-.container-meet {
-    width: 100%;
-    margin: 10px 2px;
-}
-.h2-learn-more- {
-    colour:dodgerblue;
-}
-
-}
-/* .p-learn-more {
-    color: #fff;
-    font-size: 15px;
-} */
-
-.rules-container {
-    width: 100%;
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.meet-text {
-    margin: 10px 10px 15px 15px;
-    font-size: 16px;
-}
-   
-
-
-	
-	.h3-learn-more {
-		color: #52d0e4;
-		font-size: 23px;
-	}
-	/* images in index.html sliding in the carousel  */
-	div .img-responsive {
-		/* height: 35vh; */
-	}
-	/* text on the gym image in the index.html */
-	.text-on-gym-image {
+	.meet-text {
 		font-size: 20px;
 	}
-   
-	/* iframe video in learn.html */ 
-/* .iframe-youtube {
-    position: relative;
-    display: block;
-    width: 280px;
-    height: 190px;
-    left: 40px;
-    overflow: hidden;
-} */
-
+	.container-meet-with-all-text-inside {
+		width: 100%;
+		padding-right: 24px;
+		padding-left: 24px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 15px;
+	}
 }
+
 @media screen and (min-width: 576px) {
 	/* Images in meet.html modified for better visualization on larger devices  */
-.rules-title {
-    color: red;
-    position: absolute;
-    top: 70px;
-    left: 500px;
-    margin: 7px;
-    padding: 5px;
-    font-size: 45px;
-}
+	.rules-title {
+		color: red;
+		position: absolute;
+		top: 70px;
+		left: 500px;
+		margin: 7px;
+		padding: 5px;
+		font-size: 45px;
+	}
 	.container-learn-more h2 {
-	 color: #52d0e4;
-	font-size: 23px;
+		/* color: #52d0e4; */
+		font-size: 23px;
 	}
-	/* images in the meet.html adjusted for better user visualization */
-.img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 65%;
-    height: 200px;
 }
-	/* tags for the images inside the carousel in index.html  */
-	div .img-responsive {
-		height: 100%;
-        width:100%;
-	}
 
-    /* meet.html position of the images adjusted for better visualization */
-
-
-
-
-}
 @media screen and (min-width: 768px) {
-
-	/* iframe video in learn.html */
-/* .embed-responsive {
-    position: relative;
-    display: block;
-    width: 600px;
-    padding: 0;
-    overflow: hidden;
-    height: 500px;
-    left: 60px;
-} */
-
-
+	.martin-image {
+		position: relative;
+		bottom: 1px;
+	}
+	.laura-image {
+		position: relative;
+		top: 34px;
+	}
 }
+
 @media screen and (min-width: 924px) {
-
-/* images in the meet.html adjusted for better user visualization */
-
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    
-}
-
-
-
-.carousel-container-images { 
-      width: 100%;
-    height: 100%;
-}
-
-.container-meet-with-all-text-inside {
-    width: 100%;
-    margin: 10px 25px;
-}
-
-.laura-adjustment-heading-and-text {
-    position: relative;
-    top: 23px;
-}
-.martin-image {
-   position: relative;
-   top: 24px;
-
-}
-.laura-image {
-position: relative;
-    top: 24px;
-}
-.img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    width: 350px;
-    height: 300px;
-}
-	/* iframe video in learn.html */
-
-
+	/* images in the meet.html adjusted for better user visualization */
+	.table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	.carousel-container-images {
+		width: 100%;
+		height: 100%;
+	}
+	.container-meet-with-all-text-inside {
+		width: 100%;
+		margin: 10px 25px;
+	}
+	.laura-adjustment-heading-and-text {
+		position: relative;
+		top: 23px;
+	}
 	/* in the index-html */
 	.jumbotron p {
 		font-family: 'Roboto', sans-serif;
 		font-size: 30px;
 	}
-
 	/* in the index.html */
 	div .text-on-gym-image {
 		color: red;
@@ -365,73 +199,26 @@ position: relative;
 		transform: translate(-50%, -50%);
 		font-size: 40px;
 	}
-	/* images sliding in the index.html carousel height reduced */
-	/* div .img-responsive {
-		height: 100%;
-        width:100%;
-	} */
-    /* learn-more.html */
-  
-     .strong-learn {
-    font-size: 15px;
-    font-weight: bolder;
-    color: #f73d4e;
+	/* learn-more.html */
+	.container-learn-more ul p {
+		font-size: 15px;
+	}
+	.table-success {
+		border-color: #8fd19e;
+	}
 }
 
-.container-learn-more ul {
-    
-    font-size: 15px;
-}
-.table-success {
-    border-color: #8fd19e;
-    padding-left: 30px;
-}
-	
-}
 @media screen and (min-width: 1024px) {
-
-/* div .img-responsive {
-    height: 100%;
-    width: 100%;
-} */
-
-
- .table-success {
-    border-color: #8fd19e;
-    padding-left: 40px;
+	.laura-image {
+		position: relative;
+		top: 36px;
+	}
+	.martin-image {
+		position: relative;
+		top: 30px;
+	}
 }
-}
+
 @media screen and (min-width: 1200px) {
 
-	/* images inside the carousel in index.html "increased their height" and the size of the text on it  */
-	/* div .img-responsive {
-		height: 100vh;
-	} */
-	div .text-on-gym-image {
-		font-size: 50px;
-	}
-    /* da cancellare forse */
-
-.p-learn-more {
-    color: #fff;
-    font-size: 15px;
 }
-.table-success td {
-    border-color: #8fd19e;
-    /* margin: 100px; */
-    padding-left: 100px;
-}
-.container-meet {
-    width: 100%;
-    margin-left: 120px;
-}
-.h1-learn-more-title {
-    font-size: 50px;
-    color: dodgerblue;
-   
-}
-
-
-}
-
-
