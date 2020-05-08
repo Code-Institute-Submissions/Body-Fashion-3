@@ -11,10 +11,20 @@
       type="text/css"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+
     <script
       src="https://kit.fontawesome.com/7a1826fcc6.js"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
 
     <link rel="stylesheet" href="asset/css/style.css" type="text/css" />
 
@@ -28,7 +38,7 @@ Gives the users the opportunity to navigate easily between all the pages -->
     <nav
       class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto"
     >
-      <h2 class="navbar-title text-center font-weight-bold">BODY FASHION</h2>
+      <h2 class="title-navbar text-center">BODY FASHION</h2>
       <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
@@ -145,9 +155,9 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               alt="gym"
               style="height: 400px; width: 100%;"
             />
-            <!-- <center> -->
+
             <h1 class="mt-4 rules-title text-center">THE GYM RULES</h1>
-            <!-- </center> -->
+
             <div class="d-none d-md-block">
               <div class="blonde-jpg-img-top-in-rule-overlapping">
                 <img
@@ -166,19 +176,20 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
     <!-- All the Rules text is taken from the website https://247fitness.co -->
 
     <!--The text below is the introduction summary to the Gym rules and informations for all the members of things do not do and to follow, The text start with a title saying "Read it carefully"-->
+    <!-- Container with all headings and text inside -->
     <div class="container-fluid mt-4">
       <div class="row">
         <div class="card col-sm-12 col-md-4">
           <div class="card my-0"></div>
           <div class="card-body my-0">
-            <h5 class="card-title">Read it carefully</h5>
+            <h5 class="rules-heading">Read it carefully</h5>
             <p class="card-text text-left">
               We want 24/7 Fitness gyms to be nice environments for all our
               members, so there's a few simple rules we expect everyone to
               follow.
             </p>
 
-            <h5 class="card-title">Summary</h5>
+            <h5 class="rules-heading">Summary</h5>
             <ol class="card-text text-left">
               <li>Be civilised</li>
               <li>Be sociable</li>
@@ -198,7 +209,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               <li>Empty your locker when you leave.</li>
             </ol>
 
-            <h5 class="card-title mt 4">Dress for the gym</h5>
+            <h5 class="rules-heading mt 4">Dress for the gym</h5>
             <p class="card-text text-left">
               We love that you look great, we want you to look great, but the
               gym floor is not the place to whip off your shirt or worse, your
@@ -218,7 +229,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
         <div class="card col-sm-12 col-md-4">
           <div class="card"></div>
           <div class="card-body">
-            <h5 class="card-title">The Gym rules</h5>
+            <h5 class="rules-heading">The Gym rules</h5>
             <h6 class="card-subtitle">Don’t fingerprint your friends in!</h6>
             <p class="card-text text-left">
               It seems obvious really as you are on CCTV and will be caught
@@ -227,7 +238,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               Good for us. Good for your freeloading friends. Not so good for
               you.
             </p>
-            <h5 class="card-title">Be nice</h5>
+            <h5 class="rules-heading">Be nice</h5>
 
             <p class="card-text text-left">
               Leave other people alone, don’t disrupt other members workouts and
@@ -236,19 +247,19 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               after a heavy set, but keep swearing to a minimum and don’t scream
               it at the top of your voice! Use the equipment properly.
             </p>
-            <h5 class="card-title mt-4">Use the equipment properly</h5>
+            <h5 class="mt-4 rules-heading mt-4">Use the equipment properly</h5>
             <p class="card-text text-left">
               If you are not sure ask a member of staff or a personal trainer.
               If you cause damage to any of the equipment due to idiotic
               behaviour, we will make you pay for it and you will be shocked at
               just how expensive gym equipment can be.
             </p>
-            <h5 class="card-title">Put your weights away</h5>
+            <h5 class="mt-4 rules-heading">Put your weights away</h5>
             <p class="card-text text-left">
               It damages the weights, the floor and other peoples toes. If you
               can’t put it down properly it’s too heavy for you.
             </p>
-            <h5 class="card-title">Don’t stink!</h5>
+            <h5 class="mt-4 rules-heading">Don’t stink!</h5>
             <p class="card-text">
               Use deodorant and wash your gym kit. Do you really want to be that
               guy/girl?
@@ -260,14 +271,16 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
         <div class="card col-sm-12 col-md-4">
           <div class="card"></div>
           <div class="card-body">
-            <h5 class="card-title">Always know where your towel is</h5>
+            <h5 class="rules-heading">Always know where your towel is</h5>
             <p class="card-text text-left">
               Your towel is just about the most massively useful thing. Please
               bring a towel and wipe down the machine you have just sweated all
               over. It's basic manners, no one wants to share your bodily fluids
               unless they are in a relationship with you.
             </p>
-            <h5 class="card-title">Be careful with your personal items</h5>
+            <h5 class="mt-4 rules-heading">
+              Be careful with your personal items
+            </h5>
             <p class="card-text text-left">
               They are your personal items not ours so we will not take
               responsibility for them. Bring a good solid lock and put them in a
@@ -275,7 +288,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               please do not leave bags/keys/phones there.
             </p>
 
-            <h5 class="card-title">Eating and drinking</h5>
+            <h5 class="mt-4 rules-heading">Eating and drinking</h5>
             <p class="card-text text-left">
               No food or inappropriate drinks on the gym floor and no food or
               drink in the sauna/steam rooms. You're at the gym, not at a
@@ -286,7 +299,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
               moving treadmill.
             </p>
 
-            <h5 class="card-title">Report issues quickly</h5>
+            <h5 class="rules-heading">Report issues quickly</h5>
             <p class="card-text text-left">
               Please report any equipment malfunctions, personal injuries or
               specific concerns to the staff immediately. If it's out of hours
