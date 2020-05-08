@@ -3,17 +3,20 @@ body {
 	font-family: 'Fjalla One', 'Roboto', sans-serif;
 }
 
+.title-navbar {
+	color: dodgerblue;
+	font-size: 18px;
+}
+
+.laura-image {
+	position: relative;
+	top: 7px;
+}
+
 .container-button-index-learn-more {
 	text-align: center;
 	margin-bottom: 15px;
 }
-
-.navbar-title {
-	color: blue;
-}
-
-
-/* index.html */
 
 .jumbotron-Arnold-container h1 {
 	color: cornflowerblue;
@@ -25,7 +28,7 @@ body {
 }
 
 .heading-text-inside-index-file h3 {
-	color: crimson;
+	color: dodgerblue;
 }
 
 .jumbotron h1 {
@@ -37,19 +40,13 @@ body {
 	font-size: larger;
 }
 
-.learn {
-	background-color: aliceblue;
-	/* background: url("../images/sereno.jpg") no-repeat; */
-	background-size: cover;
-}
-
 .learn-more-headings {
 	color: dodgerblue;
-	font-size: 30px;
+	font-size: 22px;
 }
 
 .h1-learn-more-title {
-	font-size: 40px;
+	font-size: 30px;
 	color: dodgerblue;
 	padding-left: 25px;
 }
@@ -60,16 +57,6 @@ body {
 
 
 /* rules.html */
-
-
-/* headings in rules.html and pricing.html */
-
-.card-title {
-	color: blue;
-}
-
-
-/* meet.html */
 
 
 /* two images, one of them, the smaller is overlapping and it is hidden on small devices */
@@ -86,8 +73,9 @@ body {
 	bottom: 50px;
 }
 
-
-/* rules.html */
+.rules-heading {
+	color: dodgerblue;
+}
 
 .rules-title {
 	color: red;
@@ -100,13 +88,6 @@ body {
 
 
 /* All footers */
-
-.footer-index {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 20px;
-	font-size: 12px;
-}
 
 .container-footer {
 	text-align: center;
@@ -125,22 +106,14 @@ body {
 	height: 200px;
 }
 
-@media screen and (min-width: 300px) {
-	.meet-text {
-		font-size: 20px;
-	}
-	.container-meet-with-all-text-inside {
-		width: 100%;
-		padding-right: 24px;
-		padding-left: 24px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 15px;
-	}
+.container-meet h2,
+h3 {
+	color: dodgerblue;
 }
 
+@media screen and (min-width: 300px) {}
+
 @media screen and (min-width: 576px) {
-	/* Images in meet.html modified for better visualization on larger devices  */
 	.rules-title {
 		color: red;
 		position: absolute;
@@ -151,24 +124,20 @@ body {
 		font-size: 45px;
 	}
 	.container-learn-more h2 {
-		/* color: #52d0e4; */
 		font-size: 23px;
 	}
 }
 
-@media screen and (min-width: 768px) {
-	.martin-image {
-		position: relative;
-		bottom: 1px;
-	}
-	.laura-image {
-		position: relative;
-		top: 34px;
-	}
-}
+@media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 924px) {
-	/* images in the meet.html adjusted for better user visualization */
+	.title-navbar {
+		color: dodgerblue;
+		position: relative;
+		left: 770px;
+		font-size: 24px;
+		top: 5px;
+	}
 	.table {
 		width: 100%;
 		border-collapse: collapse;
@@ -177,27 +146,10 @@ body {
 		width: 100%;
 		height: 100%;
 	}
-	.container-meet-with-all-text-inside {
-		width: 100%;
-		margin: 10px 25px;
-	}
-	.laura-adjustment-heading-and-text {
-		position: relative;
-		top: 23px;
-	}
 	/* in the index-html */
 	.jumbotron p {
 		font-family: 'Roboto', sans-serif;
 		font-size: 30px;
-	}
-	/* in the index.html */
-	div .text-on-gym-image {
-		color: red;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 40px;
 	}
 	/* learn-more.html */
 	.container-learn-more ul p {
@@ -208,17 +160,14 @@ body {
 	}
 }
 
-@media screen and (min-width: 1024px) {
-	.laura-image {
-		position: relative;
-		top: 36px;
-	}
-	.martin-image {
-		position: relative;
-		top: 30px;
-	}
-}
+@media screen and (min-width: 1024px) {}
 
 @media screen and (min-width: 1200px) {
-
+	.title-navbar {
+		color: dodgerblue;
+		position: relative;
+		left: 950px;
+		font-size: 24px;
+		top: 5px;
+	}
 }
