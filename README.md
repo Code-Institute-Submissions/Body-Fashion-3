@@ -13,8 +13,7 @@ For now the user is disallowed to use for real the Sign Up form as it is not abl
 4. pricing.html
 5. rules.html
 
-* The  <https://www.index.html>  provide empathy to the Ux attracting their attention visually with a welcome Carousel of slide images of the gym environment, the speed of this element is contol using the attribute of data interval="desire value" that let us increase or decrease the speed of each image inside the <div> Carousel, this is very helpful, I have learn this reading it on <https://www.stackoverflow.com>.
-
+* The  <https://www.index.html>  provide empathy to the Ux attracting their attention visually with a welcome Carousel of slide images of the gym environment, the speed of this element is contol using the attribute of data interval="desire value" that let us increase or decrease the speed of each image inside the <div> Carousel, this is very helpful, I have learn this reading it on <https://www.stackoverflow.com>. 
 * As user who wants general informations on this gym and to have a better idea of what this gym offer to his members, the main page <https://www.index.html> provide informations and detailed descriptions: 
 - What to expect
 - **The gym facilities**
@@ -70,7 +69,7 @@ I have copy and pasted his link from Bootstrap to the bottom of my page, It help
 I have copy and paste the link to the bottom of my page.
 Cdnjs it is a "Content Delivery Network" improves the performance of my website making sure that it is fast delivery content 
 ## Testing
-* The active link of my project is <>
+* The active link of my project is <https://iacopo454.github.io/Body-Fashion-3/>
 * I have checked my project using Google Chrome, Mozilla Firefox, Safari, I also tested it on a Macbook and on my highphone 8.
 * I have checked if my code contains any errors and validate my HTML and CSS code using W3C validator "World Wide Consortium" technology, this the link for the HTML <https://validator.w3.org> and this the link used for the CSS <https://jigsaw.w3.org/css-validator/>.
 * I used this technology to beautify my style.css code  <https://www.freeformatter.com/css-beautifier.html#ad-output>, and instead to beautify my HTML pages I used the keyboard commands alt+shift+f.  
