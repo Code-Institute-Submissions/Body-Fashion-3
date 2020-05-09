@@ -1,4 +1,4 @@
-# Project  Introduction "Body Fashion gym"
+# Project  Introduction 
 The purpose of this project is to create a website to advertise and promote a new gym opening in London called “Body Fashion”, providing all the relevant informations to the user with the intentions to get many members to join and giving good content informations of the business on different aspects.
 The user can also use the website to buy supplements online and to get informations on good practice of exercise.
 
