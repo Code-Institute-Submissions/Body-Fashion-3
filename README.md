@@ -44,10 +44,9 @@ As user that is looking to get more specific informations or would like to feel 
 
 ## Deployment
 The project is deployed to this link <https://github.com/Iacopo454/Body-Fashion-3>.
-In order to make the project live on the internet, first I have checked that I used all the Git commands: git-status,git-add, git-commit, git push to create the relevant repositories on Github.  
-After this, from the GitHub page <https://iacopo454.github.io/Body-Fashion-3/> I clicked at the top right of the page on "Settings" link, then I scroll down to the GitHub Pages section that is designed to host our project pages from the GitHub repositories, and selected the "Master branch" in my case as it is what I been provided from Code Institute for this project, but the project may have many branches to choose, then I been provided with a link that might take few minutes to be active and when it is our site is published at that link. 
-The published link is <https://iacopo454.github.io/Body-Fashion/>.
-
+In order to make the project live on the internet, first I have checked that I used all the Git commands: git status,git add, git commit -m, git push to create the relevant repositories on Github.  
+After this, from the GitHub page of my project, I clicked at the top right of the page on "Settings" link, then I scroll down to the GitHub Pages section that is designed to host our project pages from the GitHub repositories, and selected the "Master branch" in my case as it is what I been provided from Code Institute for this project, but the project may have many branches to choose, then I been provided with a link that might take few minutes to be active and when it is our site is published at that link. 
+* The active link of my project is <https://iacopo454.github.io/Body-Fashion-3/>
 ## Technologies used
 * HTML5 and CSS
 * Bootstrap 4.2.1 
@@ -69,10 +68,9 @@ I have copy and pasted his link from Bootstrap to the bottom of my page, It help
 I have copy and paste the link to the bottom of my page.
 Cdnjs it is a "Content Delivery Network" improves the performance of my website making sure that it is fast delivery content 
 ## Testing
-* The active link of my project is <https://iacopo454.github.io/Body-Fashion-3/>
 * I have checked my project using Google Chrome, Mozilla Firefox, Safari, I also tested it on a Macbook and on my highphone 8.
 * I have checked if my code contains any errors and validate my HTML and CSS code using W3C validator "World Wide Consortium" technology, this the link for the HTML <https://validator.w3.org> and this the link used for the CSS <https://jigsaw.w3.org/css-validator/>.
-* I used this technology to beautify my style.css code  <https://www.freeformatter.com/css-beautifier.html#ad-output>, and instead to beautify my HTML pages I used the keyboard commands alt+shift+f.  
+* I used this technology to beautify my style.css code <https://www.freeformatter.com/css-beautifier.html#ad-output>, and instead to beautify my HTML pages I used the keyboard commands alt+shift+f.  
 ## External Sources
 1. Most of the Images are taken from Yahoo search engine: Michael.jpg, Our.team.jpg, maxresdefault, blonde-jpg-jpg, Arnold.jpg, palestra.jpg, Richard.jpg, Laura.jpg, Martin.jpg, sereno.jpg, silvy-image.jpg, instead unsplash.jpg and unsplash3.jpg are taken from <https://unsplash.com/>, pexels-2.jpg and pexels.jpg images are taken from the free licence website <https://www.pexels.com/>.
 2. The two iframe videos in [learn-more.html](learn-more.html) are taken from Youtube and their username sources are Valrocky and Criticalbench.
