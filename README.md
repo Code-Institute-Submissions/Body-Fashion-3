@@ -68,6 +68,11 @@ I have copy and pasted his link from Bootstrap to the bottom of my page, It help
 * Cdnjs
 I have copy and paste the link to the bottom of my page.
 Cdnjs it is a "Content Delivery Network" improves the performance of my website making sure that it is fast delivery content 
+##Issues 
+* I tried to link a Facebook page as I done for Youtube to load a video that advertise the gym but apparently after my attempt with Facebook I got an error in the console "X-frames-Options to deny" and searching on Google the error, I find out on <https://stackoverflow.com> that it is not possible to add a facebook page because Facebook does not allowed it and block it", perhaps it might be possible to do it with some other code configuration to go around it.
+Inside the console in the DevTools I have two errors one showing a message of Dev Tool failed to load SourceMap, error status 404 and the other is about font-awesome showing this message: A cookie associated with a cross-site resource at http://fontawesome.com/ was set without the `SameSite` attribute.
+I believe that both the error do not effect the performance of my project, the first one is only related to cookies and instead the second is related to the loading of a Js functionality I assume from the message that refers to the SourceMap.
+
 ## Testing
 * I have checked my project using Google Chrome, Mozilla Firefox, Safari, I also tested it on a Macbook and on my highphone 8.
 * I have checked if my code contains any errors and validate my HTML and CSS code using W3C validator "World Wide Consortium" technology, this the link for the HTML <https://validator.w3.org> and this the link used for the CSS <https://jigsaw.w3.org/css-validator/>.
